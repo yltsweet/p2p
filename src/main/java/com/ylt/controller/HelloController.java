@@ -9,7 +9,10 @@ import org.springframework.web.servlet.ModelAndView;
  */
 @Controller
 public class HelloController {
-
+    /**
+     * hellopringboot
+     * @return
+     */
     @RequestMapping("/hello")
     public ModelAndView getHello(){
         ModelAndView mv=new ModelAndView();

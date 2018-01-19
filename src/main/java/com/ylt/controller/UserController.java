@@ -17,6 +17,10 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    /**
+     * aaaaa
+     * @return
+     */
     @RequestMapping(value = "/userList",produces = "text/plain;charset=UTF-8")
     public List<User> userList(){
         List<User> users = userService.userList();
